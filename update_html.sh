@@ -7,9 +7,9 @@
 
 # This script updates the covid dashboard
 
-source /home/lxvm/bokeh/bin/activate
+. /home/lxvm/bokeh/bin/activate
 
-python3 /home/lxvm/repos/covid/covid_plotter.py --update
+python3 /home/lxvm/repos/covid/covid_plotter.py update
 
 deactivate
 
